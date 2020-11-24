@@ -33,6 +33,6 @@ app.get('/about', (req, res) => {
 //     res.send(salida);
 // });
 
-app.listen(3000, () => {
+app.listen(port, () => {
     console.log(`Escuchando  peticiones por el puerto ${ port }`);
 });
